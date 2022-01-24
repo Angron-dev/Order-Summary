@@ -1,0 +1,113 @@
+@import "var";
+$a: 300px;
+$b: 30%;
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $paleBlue;
+    cursor: default;
+}
+main{
+    background:white;
+    box-sizing: border-box;
+    border-radius: 1em;
+    overflow: hidden;
+    width: 30%;
+    min-width: 300px;
+    font-size: clamp(0.8em, 1.2vw, 1.1em)
+}
+main > img {
+    width: 100%;
+}
+.wraper{
+    padding: 30px 40px;
+}
+article{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    h1{
+        color: $darkBlue;
+    }
+    P{
+        color: $desaturatedBlue;
+        margin-top: 20px;
+    }
+    
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $veryPaleBlue;
+    padding: 10px;
+    border-radius: 1em;
+    margin-bottom: 30px;
+    a{
+        color: $brightBlue;
+        font-size: 0.8em;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+    a:hover{
+       color: hsl(245, 75%, 65%);
+       text-decoration: none;
+    }
+}
+.plan-price{
+    margin-left: 20px;
+    width: 100%;
+    h3{
+        font-size: 0.8em;
+        font-weight: 900;
+        color: $darkBlue;
+    }
+    h4{
+        font-size: 0.8em;
+        color: $desaturatedBlue;
+    }
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius:0.8em ;
+    padding: 10px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.buttons button:first-of-type{
+    background: $brightBlue;
+    color: white;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px $brightBlue;
+}
+.buttons button:first-of-type:hover{
+    background: hsl(245, 75%, 60%);
+}
+
+.buttons button:nth-of-type(2){
+background: white;
+    color: $desaturatedBlue;
+}
+.buttons button:nth-of-type(2):hover{
+    color:hsl(224, 23%, 20%);
+}
