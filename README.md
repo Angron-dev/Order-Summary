@@ -7,9 +7,9 @@ Project from Frontend Master
 * HTML
 
 
-[Demo wersji finalnej](https://angron-dev.github.io/Order-Summary/)
+[Final version](https://angron-dev.github.io/Order-Summary/)
 
-[Link do wyzwania](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+[Link to challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
