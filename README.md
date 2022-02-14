@@ -1,8 +1,8 @@
 # Order Summary
 
-Wykonanie projektu ze strony Frontend Mentor 
+Project from Frontend Master 
 
-## Wykorzystane technologie: 
+## Technologies used
 * SCSS
 * HTML
 
